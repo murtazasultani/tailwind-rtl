@@ -1,4 +1,4 @@
-# Tailwind Dark
+# Tailwind rtl
 Tailwind CSS plugin to generate rtl variants.
 
 ## Installation
