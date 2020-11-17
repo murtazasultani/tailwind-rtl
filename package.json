@@ -10,10 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/murtazasultani/tailwind-rtl.git"
   },
+  "keywords": [
+    "tailwindcss",
+    "plugins",
+    "rtl",
+    "Right to Left"
+  ],
   "author": "Murtaza Sultani <https://twitter.com/amurtazasultani>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/murtazasultani/tailwind-rtl/issues"
   },
-  "homepage": "https://github.com/murtazasultani/tailwind-rtl#readme"
+  "homepage": "https://github.com/murtazasultani/tailwind-rtl#readme",
+  "devDependencies": {
+    "postcss-selector-parser": "^6.0.4",
+    "tailwindcss": "^1.9.6",
+    "ava": "^3.13.0"
+  }
 }
