@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 const selectorParser = require('postcss-selector-parser');
 
 module.exports = {
-    function({ addVariant, prefix }) {
+    method: function({ addVariant, prefix }) {
         addVariant('rtl', ({ modifySelectors, separator }) => {
             modifySelectors(({ selector }) => {
                 return selectorParser((selectors) => {
@@ -14,7 +14,7 @@ module.exports = {
             })
         })
     },
-    function({ addUtilities }) {
+    otherMethod: function({ addUtilities }) {
         const newUtilities = {
             '.direction-rtl': {
                 direction: 'rtl'
