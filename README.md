@@ -47,6 +47,7 @@ This plugin generates the following utilities:
 .direction-rtl {
   direction: rtl;
 }
+
 .direction-rtl .rtl\:flex-row {
   flex-direction: row;
 }
