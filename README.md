@@ -40,3 +40,26 @@ variants: {
     // ...
 },
 ```
+
+This plugin generates the following utilities:
+
+```css
+.direction-rtl {
+  direction: rtl;
+}
+.direction-rtl .rtl\:flex-row {
+  flex-direction: row;
+}
+
+.direction-rtl .rtl\:flex-row-reverse {
+  flex-direction: row-reverse;
+}
+...
+```
+## Example
+
+```html
+<div class="mr-5 rtl:ml-5 rtl:mr-0">
+    
+</div>
+```
