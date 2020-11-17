@@ -1,16 +1,16 @@
-# Tailwind rtl
+# Tailwind rtl2
 Tailwind CSS plugin to generate rtl variants.
 
 ## Installation
 
 ```bash
-npm install tailwind-rtl
+npm install tailwind-rtl2 --save-dev
 ```
 
 ## usage
 ```js
 plugins: [
-    require('tailwind-rtl'),
+    require('tailwind-rtl2'),
     // ...
 ],
 ```
