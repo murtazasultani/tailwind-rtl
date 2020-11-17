@@ -1,6 +1,6 @@
 {
   "name": "tailwind-rtl2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tailwind CSS plugin to generate rtl variants.",
   "main": "index.js",
   "scripts": {
