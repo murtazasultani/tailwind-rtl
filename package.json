@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-rtl",
+  "version": "1.0.0",
+  "description": "Tailwind CSS plugin to generate rtl variants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtazasultani/tailwind-rtl.git"
+  },
+  "author": "Murtaza Sultani <https://twitter.com/amurtazasultani>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murtazasultani/tailwind-rtl/issues"
+  },
+  "homepage": "https://github.com/murtazasultani/tailwind-rtl#readme"
+}
