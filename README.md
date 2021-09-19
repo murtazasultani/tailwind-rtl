@@ -43,7 +43,7 @@ variants: {
   space: ['rtl'],
   borderWidth: ['rtl'],
   padding: ['rtl'],
-  letterSpacing: ['rtl']
+  letterSpacing: ['rtl'],
   // ...
 },
 ```
