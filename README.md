@@ -10,8 +10,17 @@ npm install tailwind-rtl2 --save-dev
 ## usage
 ```js
 plugins: [
-    require('tailwind-rtl2'),
-    // ...
+  require('tailwind-rtl2'),
+  plugin(function({ addUtilities }) {
+    const newUtilities = {
+      '.direction-rtl': {
+        direction: 'rtl'
+      }
+    }
+
+    addUtilities(newUtilities)
+  }),
+  // ...
 ],
 ```
 
