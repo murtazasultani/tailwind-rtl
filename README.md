@@ -22,22 +22,29 @@ You can toggle using the class `direction-rtl` at the parent element of your com
 
 ```js
 variants: {
-    alignContent: ['responsive', 'rtl'],
-    alignItems: ['responsive', 'rtl'],
-    alignSelf: ['responsive', 'rtl'],
-    flex: ['responsive', 'rtl'],
-    flexDirection: ['responsive', 'rtl'],
-    flexGrow: ['responsive', 'rtl'],
-    flexShrink: ['responsive', 'rtl'],
-    flexWrap: ['responsive', 'rtl'],
-    float: ['responsive', 'rtl'],
-    inset: ['responsive', 'rtl'],
-    justifyContent: ['responsive', 'rtl'],
-    justifyItems: ['responsive', 'rtl'],
-    justifySelf: ['responsive', 'rtl'],
-    textAlign: ['responsive', 'rtl'],
-    position: ['responsive', 'rtl']
-    // ...
+  alignContent: ['rtl'],
+  alignItems: ['rtl'],
+  alignSelf: ['rtl'],
+  flex: ['rtl'],
+  flexDirection: ['rtl'],
+  flexGrow: ['rtl'],
+  flexShrink: ['rtl'],
+  flexWrap: ['rtl'],
+  float: ['rtl'],
+  inset: ['rtl'],
+  justifyContent: ['rtl'],
+  justifyItems: ['rtl'],
+  justifySelf: ['rtl'],
+  textAlign: ['rtl'],
+  position: ['rtl'],
+  margin: ['rtl'],
+  translate: ['rtl'],
+  rotate: ['rtl'],
+  space: ['rtl'],
+  borderWidth: ['rtl'],
+  padding: ['rtl'],
+  letterSpacing: ['rtl']
+  // ...
 },
 ```
 
