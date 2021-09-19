@@ -16,15 +16,15 @@
     "rtl",
     "Right to Left"
   ],
-  "author": "Murtaza Sultani <https://twitter.com/amurtazasultani>",
+  "author": "Murtaza Sultani <https://twitter.com/murtazasultanii>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/murtazasultani/tailwind-rtl/issues"
   },
   "homepage": "https://github.com/murtazasultani/tailwind-rtl#readme",
   "devDependencies": {
-    "postcss-selector-parser": "^6.0.4",
-    "tailwindcss": "^1.9.6",
-    "ava": "^3.13.0"
+    "ava": "^3.13.0",
+    "postcss-selector-parser": "^6.0.6",
+    "tailwindcss": "^2.0.1"
   }
 }
